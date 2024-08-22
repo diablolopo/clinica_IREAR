@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Medicamentos y Seguridad</title>
+</head>
+<body>
+    <h1>Registro de Medicamentos y Dispositivos de Seguridad</h1>
+
+    <!-- Sección para registrar medicamentos -->
+    <section id="medicamentos">
+        <h2>Medicamentos</h2>
+        <input type="text" id="medicamento-nombre" placeholder="Nombre del Medicamento">
+        <input type="datetime-local" id="medicamento-fecha">
+        <button onclick="agregarMedicamento()">Agregar Medicamento</button>
+
+        <!-- Lista donde se mostrarán los medicamentos -->
+        <ul id="lista-medicamentos">
+            <!-- Ejemplo de cómo se verían los registros -->
+            <!--
+            <li>Medicamento: Aspirina - Recordatorio: 2024-08-20 09:00</li>
+            <li>Medicamento: Paracetamol - Recordatorio: 2024-08-20 14:00</li>
+            -->
+        </ul>
+    </section>
+
+    <!-- Sección para registrar dispositivos de seguridad -->
+    <section id="dispositivos">
+        <h2>Dispositivos de Seguridad</h2>
+        <input type="text" id="dispositivo-nombre" placeholder="Nombre del Dispositivo">
+        <input type="text" id="dispositivo-tipo" placeholder="Tipo de Dispositivo (Cámara/Sensor)">
+        <button onclick="agregarDispositivo()">Agregar Dispositivo</button>
+
+        <!-- Lista donde se mostrarán los dispositivos -->
+        <ul id="lista-dispositivos">
+            <!-- Ejemplo de cómo se verían los registros -->
+            <!--
+            <li>Dispositivo: Cámara de la sala - Tipo: Cámara</li>
+            <li>Dispositivo: Sensor de movimiento en el jardín - Tipo: Sensor</li>
+            -->
+        </ul>
+    </section>
+
+    <script src="logica"></script>
+</body>
+</html>
