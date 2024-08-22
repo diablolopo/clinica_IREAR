@@ -79,7 +79,7 @@
                 <a href="#"><i class='bx bxs-diamond icon' ></i> Actividades financieras<i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
                     <li><a href="../actividades/mostrar.php">Pagos</a></li>
-                    <li><a href="../actividades/nuevo.php">Nuevo pago</a></li>
+                    <li><a href="../actividades/nuevo.php">Nuevo pagos</a></li>
                    
                 </ul>
             </li>
@@ -88,7 +88,7 @@
                 <a href="#"><i class='bx bxs-spray-can icon' ></i> Medicina<i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
                     <li><a href="../medicinas/venta.php">Vender</a></li>
-                    <li><a href="../medicinas/mostrar.php">Listado</a></li>
+                    <li><a href="../medicinas/mostrar.php">Listados</a></li>
                     <li><a href="../medicinas/nuevo.php">Nueva</a></li>
                     <li><a href="../medicinas/categoria.php">Categoria</a></li>
 
@@ -174,7 +174,7 @@ if($sentencia){
          <table id="example" class="responsive-table">
             <thead>
                 <tr>
-                    <th scope="col">Laboratorio</th>
+                    <th scope="col">Laboratorios</th>
                     <th scope="col">Estado</th>
                     <th scope="col">Acciones</th>
                 </tr>
