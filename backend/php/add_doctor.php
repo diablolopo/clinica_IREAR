@@ -63,7 +63,7 @@ $stmt->bindParam(':nacd',$nacd);
     echo '<div id="cookiePopup" class="hide">
       <img src="../../backend/img/404-tick.png" />
       <p>
-        Agregado correctamente
+        Agregado Correctamente
       </p>
       <button id="acceptCookie" type="button">OK</button>
     </div>';
