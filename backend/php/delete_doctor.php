@@ -15,7 +15,7 @@ echo '<script type="text/javascript">
 swal({
   icon: "success",
   title: "Eliminado",
-  text: "Eliminado correctamente!",
+  text: "Eliminado Correctamente!",
 })
         </script>';
 }
