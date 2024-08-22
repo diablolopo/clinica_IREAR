@@ -20,7 +20,7 @@
 
 
 
-    <title>Clínica IREAR | Pago de la cita</title>
+    <title>Clínica IREAr | Pago de la cita</title>
 </head>
 <body>
 
