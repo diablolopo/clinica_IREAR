@@ -70,7 +70,7 @@
             <li>
                 <a href="#"><i class='bx bxs-user-pin icon' ></i> Recursos humanos<i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
-                    <li><a href="../recursos/enfermera.php">Enfermera</a></li>
+                    <li><a href="../recursos/enfermera.php">Enfermeras</a></li>
                     <li><a href="../recursos/laboratiorios.php">Laboratorios</a></li>
                   
                 </ul>
@@ -187,7 +187,7 @@ if($sentencia){
                 <?php foreach($data as $d):?>
                     <tr>
                         <th scope="row"><?php echo $d->ceddoc ?></th>
-                        <td data-title="Doctor"><?php echo $d->nodoc ?>&nbsp;<?php echo $d->apdoc ?></td>
+                        <td data-title="Medico"><?php echo $d->nodoc ?>&nbsp;<?php echo $d->apdoc ?></td>
                         
                         <td data-title="Sexo"><?php echo $d->sexd ?></td>
                         <td data-title="Teléfono"><?php echo $d->phd ?></td>
