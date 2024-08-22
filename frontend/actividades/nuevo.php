@@ -44,9 +44,9 @@
             <li>
                 <a href="#"><i class='bx bxs-user icon' ></i> Pacientes <i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
-                    <li><a href="../pacientes/mostrar.php" >Lista de pacientes</a></li>
+                    <li><a href="../pacientes/mostrar.php" >Lista de Pacientes</a></li>
                     <li><a href="../pacientes/pagos.php">Pagos</a></li>
-                    <li><a href="../pacientes/historial.php">Historial de los pacientes</a></li>
+                    <li><a href="../pacientes/historial.php">Historial de los Pacientes</a></li>
                     <li><a href="../pacientes/documentos.php">Documentos</a></li>
                    
                 </ul>
@@ -55,8 +55,8 @@
             <li>
                 <a href="#"><i class='bx bxs-briefcase icon' ></i> Médicos <i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
-                    <li><a href="../medicos/mostrar.php">Lista de médicos</a></li>
-                    <li><a href="../medicos/historial.php">Historial de los médicos</a></li>
+                    <li><a href="../medicos/mostrar.php">Lista de Médicos</a></li>
+                    <li><a href="../medicos/historial.php">Historial de los Médicos</a></li>
                    
                 </ul>
             </li>
@@ -65,7 +65,7 @@
             
 
             <li>
-                <a href="#"><i class='bx bxs-user-pin icon' ></i> Recursos humanos<i class='bx bx-chevron-right icon-right' ></i></a>
+                <a href="#"><i class='bx bxs-user-pin icon' ></i> Recursos Humanos<i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
                     <li><a href="../recursos/enfermera.php">Enfermera</a></li>
                     <li><a href="../recursos/laboratiorios.php">Laboratorios</a></li>
@@ -74,7 +74,7 @@
             </li>
 
             <li>
-                <a href="#" class="active"><i class='bx bxs-diamond icon' ></i> Actividades financieras<i class='bx bx-chevron-right icon-right' ></i></a>
+                <a href="#" class="active"><i class='bx bxs-diamond icon' ></i> Actividades Financieras<i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
                     <li><a href="../actividades/mostrar.php">Pagos</a></li>
                     <li><a href="../actividades/nuevo.php">Nuevo pago</a></li>
