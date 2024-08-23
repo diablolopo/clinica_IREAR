@@ -41,7 +41,7 @@ $events = $req->fetchAll();
     }
         </style>
 
-    <title>Clínica IREAR | Panel administrativo</title>
+    <title>Clínica IREARare | Panel administrativo</title>
 </head>
 <body>
     
