@@ -322,8 +322,8 @@ CREATE TABLE `patients` (
 --
 
 INSERT INTO `patients` (`idpa`, `numhs`, `nompa`, `apepa`, `direc`, `sex`, `grup`, `phon`, `cump`, `corr`, `username`, `password`, `rol`, `state`, `fere`) VALUES
-(1, '77458745', 'JAVIER MANUEL', 'SUAREZ BENITES', 'CALLE LAS MALVINAS', 'Masculino', 'A+', '+51 999875411', '1995-08-12', '', '', '', '', '1', '2022-10-21 20:02:26'),
-(2, '76433434', 'Manuel Javier', 'Flores Mendoza', 'calle los tulipanes mz d7 lt 86', 'Masculino', 'A+', '+51 999764545', '1992-08-09', '', '', '', '', '1', '2022-10-22 12:11:24');
+(1, '77458745', 'Juan Ramon', 'SUAREZ BENITES', 'CALLE LAS MALVINAS', 'Masculino', 'A+', '+51 999875411', '1995-08-12', '', '', '', '', '1', '2022-10-21 20:02:26'),
+(2, '76433434', 'Pongame Diez', 'Por Favor', 'calle los tulipanes mz d7 lt 86', 'Masculino', 'A+', '+51 999764545', '1992-08-09', '', '', '', '', '1', '2022-10-22 12:11:24');
 
 -- --------------------------------------------------------
 
