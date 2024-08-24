@@ -124,7 +124,7 @@ CREATE TABLE `doctor` (
 --
 
 INSERT INTO `doctor` (`idodc`, `ceddoc`, `nodoc`, `apdoc`, `nomesp`, `direcd`, `sexd`, `phd`, `nacd`, `corr`, `username`, `password`, `rol`, `state`, `fere`) VALUES
-(10, '09383353', 'RAMON RULEI', 'NUÑEZ VALENCIA', 'Cardiología', 'CALLE LAS APLOMINAS', 'Masculino', '+51 998747477', '1993-08-12', 'aacaad@gmail.com', 'ddvf', '3b593cffbd70aefca6fbdc2b1563bf1e', '3', '1', '2022-10-25 06:03:08'),
+(10, '09383353', 'RAMON RULEI', 'NUÑEZ VALENCIA', 'Cardiología', 'La Calera', 'Masculino', '+51 998747477', '1993-08-12', 'aacaad@gmail.com', 'ddvf', '3b593cffbd70aefca6fbdc2b1563bf1e', '3', '1', '2022-10-25 06:03:08'),
 (11, '86577567', 'Benito', 'Cabrera', 'Endocrinología', 'calle las monteros', 'Masculino', '+51 998382323', '1992-04-12', '', '', '', '', '1', '2022-10-25 05:13:06');
 
 -- --------------------------------------------------------
