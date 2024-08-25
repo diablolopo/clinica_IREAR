@@ -20,7 +20,7 @@
 
 
 
-    <title>Clínica IREAR | Actualizar del médico</title>
+    <title>Clínica IREAR | Actualizar del Médico</title>
 </head>
 <body>
 
@@ -44,9 +44,9 @@
             <li>
                 <a href="#"><i class='bx bxs-user icon' ></i> Pacientes <i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
-                    <li><a href="../pacientes/mostrar.php" >Lista de pacientes</a></li>
+                    <li><a href="../pacientes/mostrar.php" >Lista de Pacientes</a></li>
                     <li><a href="../pacientes/pagos.php">Pagos</a></li>
-                    <li><a href="../pacientes/historial.php">Historial de los pacientes</a></li>
+                    <li><a href="../pacientes/historial.php">Historial de los Pacientes</a></li>
                     <li><a href="../pacientes/documentos.php">Documentos</a></li>
                    
                 </ul>
@@ -55,8 +55,8 @@
             <li>
                 <a href="#" class="active"><i class='bx bxs-briefcase icon' ></i> Médicos <i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
-                    <li><a href="../medicos/mostrar.php">Lista de médicos</a></li>
-                    <li><a href="../medicos/historial.php">Historial de los médicos</a></li>
+                    <li><a href="../medicos/mostrar.php">Lista de Médicos</a></li>
+                    <li><a href="../medicos/historial.php">Historial de los Médicos</a></li>
                    
                 </ul>
             </li>
@@ -65,7 +65,7 @@
             
 
             <li>
-                <a href="#"><i class='bx bxs-user-pin icon' ></i> Recursos humanos<i class='bx bx-chevron-right icon-right' ></i></a>
+                <a href="#"><i class='bx bxs-user-pin icon' ></i> Recursos Humanos<i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
                     <li><a href="../recursos/enfermera.php">Enfermera</a></li>
                     <li><a href="../recursos/laboratiorios.php">Laboratorios</a></li>
@@ -149,9 +149,9 @@
             <ul class="breadcrumbs">
                 <li><a href="../admin/escritorio.php">Home</a></li>
                 <li class="divider">></li>
-                <li><a href="../medicos/mostrar.php">Listado de los médicos</a></li>
+                <li><a href="../medicos/mostrar.php">Listado de los Médicos</a></li>
                 <li class="divider">></li>
-                <li><a href="#" class="active">Actualizar del médico</a></li>
+                <li><a href="#" class="active">Actualizar del Médico</a></li>
             </ul>
            
            <!-- multistep form -->
@@ -181,18 +181,18 @@ if($sentencia){
     
     <input type="hidden" name="midp" value="<?php echo $d->idodc; ?>">
 
-    <label for="psw"><b>Cédula del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Cédula del Médico</b></label><span class="badge-warning">*</span>
     <input type="text" maxlength="15" name="docce" value="<?php echo $d->ceddoc; ?>"  required>
 
 
-    <label for="psw"><b>Nombre del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Nombre del Médico</b></label><span class="badge-warning">*</span>
     <input type="text"  name="docna" value="<?php echo $d->nodoc; ?>"  required>
 
-    <label for="psw"><b>Apellido del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Apellido del Médico</b></label><span class="badge-warning">*</span>
     <input type="text"  name="docap" value="<?php echo $d->apdoc; ?>"  required>
 
 
-    <label for="psw"><b>Especialidad del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Especialidad del Médico</b></label><span class="badge-warning">*</span>
     <select required name="doces"  id="espm">
         <option value="<?php echo $d->nomesp; ?>"><?php echo $d->nomesp; ?></option>
         <option>------------------Seleccione----------------------------</option>
@@ -213,10 +213,10 @@ if($sentencia){
 
 
 
-    <label for="psw"><b>Dirección del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Dirección del Médico</b></label><span class="badge-warning">*</span>
     <input type="text"  name="docdi" value="<?php echo $d->direcd; ?>"  required>
 
-    <label for="psw"><b>Género del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Género del Médico</b></label><span class="badge-warning">*</span>
     <select required name="docge"  id="gep">
         <option value="<?php echo $d->sexd; ?>"><?php echo $d->sexd; ?></option>
         <option>----------------------SELECCIONE----------------</option>
@@ -225,10 +225,10 @@ if($sentencia){
 
     </select>
 
-    <label for="psw"><b>Teléfono del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Teléfono del Médico</b></label><span class="badge-warning">*</span>
     <input type="text" maxlength="13"  name="docte" value="<?php echo $d->phd; ?>"  required>
 
-    <label for="psw"><b>Nacimiento del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Nacimiento del Médico</b></label><span class="badge-warning">*</span>
     <input type="date"  name="docda" value="<?php echo $d->nacd; ?>"  required>
 
 
