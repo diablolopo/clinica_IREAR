@@ -13,7 +13,7 @@
 
 $sql="INSERT INTO consult(mtcl, idpa, nompa, state) VALUES ('$consl1', '$csidpa1', '$csnopa1','1')";
  $connect->exec($sql);
-echo 'Agregado correctamente';
+echo 'Agregado Correctamente';
 
 
 
