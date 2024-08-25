@@ -20,7 +20,7 @@
 
 
 
-    <title>Clínica IREAR | Información del médico</title>
+    <title>Clínica IREAR | Información del Médico</title>
 </head>
 <body>
 
@@ -34,7 +34,7 @@
             <li>
                 <a href="#"><i class='bx bxs-book-alt icon' ></i> Citas <i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
-                    <li><a href="../citas/mostrar.php">Todas las citas</a></li>
+                    <li><a href="../citas/mostrar.php">Todas las Citas</a></li>
                     <li><a href="../citas/nuevo.php">Nueva</a></li>
                     <li><a href="../citas/calendario.php">Calendario</a></li>
                    
@@ -44,9 +44,9 @@
             <li>
                 <a href="#"><i class='bx bxs-user icon' ></i> Pacientes <i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
-                    <li><a href="../pacientes/mostrar.php" >Lista de pacientes</a></li>
+                    <li><a href="../pacientes/mostrar.php" >Lista de Pacientes</a></li>
                     <li><a href="../pacientes/pagos.php">Pagos</a></li>
-                    <li><a href="../pacientes/historial.php">Historial de los pacientes</a></li>
+                    <li><a href="../pacientes/historial.php">Historial de los Pacientes</a></li>
                     <li><a href="../pacientes/documentos.php">Documentos</a></li>
                    
                 </ul>
@@ -55,14 +55,14 @@
             <li>
                 <a href="#" class="active"><i class='bx bxs-briefcase icon' ></i> Médicos <i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
-                    <li><a href="../medicos/mostrar.php">Lista de médicos</a></li>
-                    <li><a href="../medicos/historial.php">Historial de los médicos</a></li>
+                    <li><a href="../medicos/mostrar.php">Lista de Médicos</a></li>
+                    <li><a href="../medicos/historial.php">Historial de los Médicos</a></li>
                    
                 </ul>
             </li>
 
             <li>
-                <a href="#"><i class='bx bxs-user-pin icon' ></i> Recursos humanos<i class='bx bx-chevron-right icon-right' ></i></a>
+                <a href="#"><i class='bx bxs-user-pin icon' ></i> Recursos Humanos<i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
                     <li><a href="../recursos/enfermera.php">Enfermera</a></li>
                     <li><a href="../recursos/laboratiorios.php">Laboratorios</a></li>
@@ -146,9 +146,9 @@
             <ul class="breadcrumbs">
                 <li><a href="../admin/escritorio.php">Home</a></li>
                 <li class="divider">></li>
-                <li><a href="../medicos/mostrar.php">Listado de los médicos</a></li>
+                <li><a href="../medicos/mostrar.php">Listado de los Médicos</a></li>
                 <li class="divider">></li>
-                <li><a href="#" class="active">Información del médico</a></li>
+                <li><a href="#" class="active">Información del Médico</a></li>
             </ul>
            
            <!-- multistep form -->
@@ -174,25 +174,25 @@ if($sentencia){
    <br>
     <hr>
 
-    <label for="email"><b>Cédula del médico</b></label><span class="badge-warning">*</span>
+    <label for="email"><b>Cédula del Médico</b></label><span class="badge-warning">*</span>
     <input type="text" placeholder="ejm: 09741478" value="<?php echo $d->ceddoc; ?>" readonly name="cem" maxlength="8" required>
 
-    <label for="psw"><b>Nombre del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Nombre del Médico</b></label><span class="badge-warning">*</span>
     <input type="text"  placeholder="ejm: Juan Raul" value="<?php echo $d->nodoc; ?>"  name="named" readonly required>
 
-    <label for="psw"><b>Apellido del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Apellido del Médico</b></label><span class="badge-warning">*</span>
     <input type="text" placeholder="ejm: Ramirez Requena" value="<?php echo $d->apdoc; ?>" name="apeme" readonly required>
 
-    <label for="psw"><b>Dirección del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Dirección del Médico</b></label><span class="badge-warning">*</span>
     <input type="text" placeholder="ejm: calle los medanos" value="<?php echo $d->direcd; ?>" name="dime" readonly required>
 
-    <label for="psw"><b>Género del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Género del Médico</b></label><span class="badge-warning">*</span>
     <select required name="geme" readonly id="gep">
         <option value="<?php echo $d->sexd; ?>"><?php echo $d->sexd; ?></option>
 
     </select>
 
-    <label for="psw"><b>Especialidad del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Especialidad del Médico</b></label><span class="badge-warning">*</span>
     <select required name="espm" readonly id="espm">
         <option value="<?php echo $d->nomesp; ?>"><?php echo $d->nomesp; ?></option>
         
@@ -200,16 +200,16 @@ if($sentencia){
     </select>
 
 
-    <label for="psw"><b>Teléfono del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Teléfono del Médico</b></label><span class="badge-warning">*</span>
     <input type="text" value="<?php echo $d->phd; ?>"  maxlength="13" readonly placeholder="ejm: +51 999 888 111" name="telme" required>
 
-    <label for="psw"><b>Fecha de nacimiento del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Fecha de nacimiento del Médico</b></label><span class="badge-warning">*</span>
     <input type="date" value="<?php echo $d->nacd; ?>" name="cumme" readonly required>
 
-    <label for="psw"><b>Correo  del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Correo  del Médico</b></label><span class="badge-warning">*</span>
     <input type="text" value="<?php echo $d->corr; ?>" name="corr" readonly required>
 
-     <label for="psw"><b>Usuario  del médico</b></label><span class="badge-warning">*</span>
+     <label for="psw"><b>Usuario  del Médico</b></label><span class="badge-warning">*</span>
     <input type="text" value="<?php echo $d->username; ?>" name="username" readonly required>
 
     <hr>
