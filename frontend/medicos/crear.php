@@ -20,7 +20,7 @@
 
 
 
-    <title>Clínica IREAR | Crear perfil del del médico</title>
+    <title>Clínica IREAR | Crear perfil del  Médico</title>
 </head>
 <body>
 
@@ -44,9 +44,9 @@
             <li>
                 <a href="#"><i class='bx bxs-user icon' ></i> Pacientes <i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
-                    <li><a href="../pacientes/mostrar.php" >Lista de pacientes</a></li>
+                    <li><a href="../pacientes/mostrar.php" >Lista de Pacientes</a></li>
                     <li><a href="../pacientes/pagos.php">Pagos</a></li>
-                    <li><a href="../pacientes/historial.php">Historial de los pacientes</a></li>
+                    <li><a href="../pacientes/historial.php">Historial de los Pacientes</a></li>
                     <li><a href="../pacientes/documentos.php">Documentos</a></li>
                    
                 </ul>
@@ -55,8 +55,8 @@
             <li>
                 <a href="#" class="active"><i class='bx bxs-briefcase icon' ></i> Médicos <i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
-                    <li><a href="../medicos/mostrar.php">Lista de médicos</a></li>
-                    <li><a href="../medicos/historial.php">Historial de los médicos</a></li>
+                    <li><a href="../medicos/mostrar.php">Lista de Médicos</a></li>
+                    <li><a href="../medicos/historial.php">Historial de los Médicos</a></li>
                    
                 </ul>
             </li>
@@ -64,7 +64,7 @@
 
 
             <li>
-                <a href="#"><i class='bx bxs-user-pin icon' ></i> Recursos humanos<i class='bx bx-chevron-right icon-right' ></i></a>
+                <a href="#"><i class='bx bxs-user-pin icon' ></i> Recursos Humanos<i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
                     <li><a href="../recursos/enfermera.php">Enfermera</a></li>
                     <li><a href="../recursos/laboratiorios.php">Laboratorios</a></li>
@@ -73,10 +73,10 @@
             </li>
 
             <li>
-                <a href="#"><i class='bx bxs-diamond icon' ></i> Actividades financieras<i class='bx bx-chevron-right icon-right' ></i></a>
+                <a href="#"><i class='bx bxs-diamond icon' ></i> Actividades Financieras<i class='bx bx-chevron-right icon-right' ></i></a>
                 <ul class="side-dropdown">
                     <li><a href="../actividades/mostrar.php">Pagos</a></li>
-                    <li><a href="../actividades/nuevo.php">Nuevo pago</a></li>
+                    <li><a href="../actividades/nuevo.php">Nuevo Pago</a></li>
                    
                 </ul>
             </li>
@@ -147,9 +147,9 @@
             <ul class="breadcrumbs">
                 <li><a href="../admin/escritorio.php">Home</a></li>
                 <li class="divider">></li>
-                <li><a href="../medicos/mostrar.php">Listado de los médicos</a></li>
+                <li><a href="../medicos/mostrar.php">Listado de los Médicos</a></li>
                 <li class="divider">></li>
-                <li><a href="#" class="active">Crear perfil del del médico</a></li>
+                <li><a href="#" class="active">Crear perfil del del Médico</a></li>
             </ul>
            
            <!-- multistep form -->
@@ -171,25 +171,25 @@ if($sentencia){
 
 <form action="" enctype="multipart/form-data" method="POST"  autocomplete="off" onsubmit="return validacion()">
   <div class="containerss">
-    <h1>Crear perfil del del médico</h1>
+    <h1>Crear Perfil del Médico</h1>
     <?php include_once '../../backend/php/add_profileM.php' ?>
    <br>
     <hr>
 
-    <label for="psw"><b>Nombre y apellidos del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Nombre y Apellidos del Médico</b></label><span class="badge-warning">*</span>
     <input type="text"  placeholder="ejm: Juan Raul" value="<?php echo $d->nodoc; ?>  &nbsp; <?php echo $d->apdoc; ?>"  name="named" readonly required>
     <input type="hidden" name="mid" value="<?php echo $d->idodc; ?>">
 
-    <label for="psw"><b>Correo electrónico del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Correo electrónico del Médico</b></label><span class="badge-warning">*</span>
     <input type="text"  placeholder="ejm: medico@gmail.com" name="come" required>
 
-    <label for="psw"><b>Usuario del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Usuario del Médico</b></label><span class="badge-warning">*</span>
     <input type="text"  placeholder="ejm: medicc" name="namedc" required>
 
-    <label for="psw"><b>Contraseña del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Contraseña del Médico</b></label><span class="badge-warning">*</span>
     <input type="password"  name="pwdm"  required>
 
-    <label for="psw"><b>Rol del médico</b></label><span class="badge-warning">*</span>
+    <label for="psw"><b>Rol del Médico</b></label><span class="badge-warning">*</span>
     <select required name="rlm">
         <option value="3">Médico</option>
 
